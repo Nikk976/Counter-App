@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.counterContainer{
+    display: flex;
+    border:2px dotted black;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin:8px;
+    padding:10px 52px;
+    background-color: black;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    font-size:18px;
+    cursor: pointer;
+
+}
+#value{
+    font-weight: bold;
+    font-size:20px;
+    padding:10px;
+}
+
+h2{
+    text-align: center;
+    margin:9px;
+    color: #cc8e8e;
+}
+#decrease{
+    color:red;
+    font-weight: bold;
+}
+#increase{
+    color:blue;
+    font-weight: bold;
+}
+@media (max-width:470px) {
+    .counterContainer{
+        flex-direction: column;
+    }
+}
